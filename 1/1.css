@@ -1,0 +1,46 @@
+@font-face {
+	font-family:F2;
+	src:url(../4/2.otf);
+}
+table{position: relative;margin:10px auto;text-align:center;}
+table td{padding:3px 5px;border:1px solid black}
+#h{top:0;left:0;right:0;width:auto;height:50px;padding-top:25px;}
+.callback{position:relative;cursor:pointer;margin: 5px auto;width:165px;background:#fff;color:#000;padding:5px;}
+.callback:hover{background:#000;color:#fff}
+.callback:active{top:3px;}
+#c{position: relative;margin:820px auto 50px auto;}
+#project,#price,#law,#order,#contacts{margin-top:30px;position: relative;border:2px solid #fff;height:200px;text-align:center;cursor:pointer;color:#000}
+.button h2{line-height:200px;width:274px;color:#fff}
+.button h2::first-letter{color:red}
+#project{background:url(../2/buttons/project.jpg);}
+.project table td{border:0;width:204px;}
+#price{background:url(../2/buttons/price.jpg);}
+#law{background:url(../2/buttons/law2.jpg);}
+#order{background:url(../2/buttons/order.jpg);}
+#contacts{background:url(../2/buttons/contacts.jpg);}
+
+
+.content{background:#fff;color:#000;padding:15px;display:none;}
+.content p{text-indent:20px;}
+.content p::first-letter{color:red;}
+
+
+.adress,.logo,.tel{width:33.3%}
+#logo{font:30px "F1";display:inline;text-align: center;}
+#logo span{font:30px "F1";color:red}
+#f{border-top:2px solid #fff;padding:20px;}
+
+
+.callback_b{z-index:9;position: fixed;width:100%;height:100%;background: rgba(0,0,0,0.7);cursor:pointer;}
+.call{z-index:10;width:870px;}
+.call,.callback_b{display:none;}
+.call .callback_w{position: fixed;top:20%;font-size:16px;background:#fff;color:#000;padding: 10px 50px 20px 50px;width:750px;text-align: center;border:10px solid #000;}
+.call form{margin:50px auto}
+.call input,.call textarea {margin:3px;padding:5px;font-size: 16px;width:195px;}
+.call span{font-size:12px;color:red;position:relative;top:-5px;}
+.call .name {margin-left:84px;}
+.call .telephon {margin-left:45px;}
+.call .email {margin-left:72px;}
+.call .comment{margin-left:5px;}
+.call .callback_c{position:absolute;right: -20px; top:-20px;font-size:17px;background:red;line-height:30px;width:30px;cursor:pointer;color:white}
+.call p{color:red;font-size:14px}

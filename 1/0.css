@@ -1,0 +1,29 @@
+@font-face {
+	font-family:F1;
+	src:url(../4/1.ttf);
+}
+*{margin:0;padding:0;outline:0;font:20px "F2" sans-serif;font-weight:normal;font-style:normal}
+html{background:#000}
+body{background:url(../2/b.jpg)no-repeat;background-position: top center;color:#fff;}
+h2{font-size:30px;}
+p{text-indent:10px;margin:5px 0}
+a{text-decoration:none;color:#fff;}
+ol{margin:10px 50px;}
+span{display:inline}
+.tC{text-align:center}
+.tL{text-align:left}
+.tR{text-align:right}
+.tB{font-weight:bold}
+.tBB{font-style:bolder}
+.tI{font-style:italic}
+.tU{text-decoration:underline}
+.tO{text-decoration:overline}
+.tLT{text-decoration:line-through}
+.tN{font-weight:normal;font-style:normal;text-decoration:none}
+.dB{display:block}
+.dI{display:inline}
+.dN{display:none}
+.O,#pC{width:1024px}
+.bC,.O,#pC{position:relative;margin:0 auto}
+.bL{float:left}
+.bR{float:right}
